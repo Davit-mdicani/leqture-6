@@ -1,14 +1,44 @@
 header {
-	background-color: lightblue;
+	background-color: lightgrey;
 	padding: 20px 0;
 	position: fixed;
 	width: 100%;
 	top: 0;
+	z-index: 2;
+	color: black;
+}
+
+
+body {
+	background-color: lightgrey;
+}
+
+.card {
+	display: inline-block;
+	width: 363px;
+	margin-right: 40px;
+}
+
+.text-container {
+	height: 172px;
+	width: 100%;
+	background-color: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-top: 68px;
+	padding-left: 37px;
+	padding-right: 37px;
+	box-sizing: border-box;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #8A8787;
 }
 
 a {
-	color: white;
+	color: black;
 }
+
 
 li {
 	display: inline-block;
@@ -24,15 +54,8 @@ img {
 	vertical-align: middle;
 }
 
-.container {
-	max-width: 1100px;
-	width: 90%;
-	margin: 0 auto;
-}
-
 section {
 	margin-top: 80px;
-	padding: 20px 0;
 }
 
 .parent {
@@ -75,12 +98,19 @@ img {
 }
 
 .img-container {
-	border: 1px solid black;
 	display: inline-block;
 	position: relative;
+	width: 100%;
+	margin-bottom: 42px;
 }
 
-.text {
+.img {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.img-text {
 	position: absolute;
 	top: 37%;
 	right: 41%;
@@ -99,20 +129,35 @@ h2 {
 	margin: centre;
 }
 
+.container {
+	max-width: 1300px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.title {
+	margin-bottom: 30px;
+}
+
+.left-side {
+	display: inline-block;
+	width: 758px;
+	vertical-align: top;
+	margin-right: 45px;
+}
+
+.right-side {
+	display: inline-block;
+	width: 362px;
+	vertical-align: top;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+	width: 100%;
+	background-color: #243043;
+	height: 200px;
+}
 
 
 
