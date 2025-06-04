@@ -1,0 +1,47 @@
+@media screen (maix-width: 480px) {
+	.burger-icon {
+		display: fa-grip-lines;
+	}
+
+	nav{
+		display: none;
+	}
+}
+
+.banner {
+	height: 500pxß;
+}
+
+
+.banner-text {
+  font-size: 50px;
+}
+
+@media screen (maix-width: 480px) {
+	.banner
+	.burger-icon {
+		font-size: 35px;
+		height: 300px;
+	}
+}
+
+@media screen (max-width: 7000px) {
+	.cards {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+.right-side {
+ justify-content: center;
+ flex-direction: column;
+ width: 100%;
+    }
+
+    .left-side {
+  margin-right: 0;
+  margin-bottom: 40px;
+    }
+
+
+}
